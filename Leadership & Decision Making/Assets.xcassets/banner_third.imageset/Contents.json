@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "chess-piece-chessboard-white-and-black-in-chess-board-game-international-chess-5fa47753b41ef8844246bbc93d4859c6.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

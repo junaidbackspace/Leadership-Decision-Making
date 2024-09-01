@@ -13,6 +13,7 @@ class LessonView: UIView {
         let label = UILabel()
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 16, weight: .medium)
+        label.textColor = UIColor(named: "LessonLabelColor") // Adaptive color
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -58,12 +59,18 @@ class LessonView: UIView {
         
         // Style the LessonView
         layer.cornerRadius = 10
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.gray.cgColor
         backgroundColor = .white
         layer.shadowColor = UIColor.black.cgColor
-        layer.shadowOpacity = 0.2
-        layer.shadowOffset = CGSize(width: 0, height: 2)
-        layer.shadowRadius = 4
+        layer.shadowOpacity = 0.9
+        layer.shadowOffset = CGSize(width: 5, height: 4)
+        layer.shadowRadius = 10
         clipsToBounds = true
+        
+        // Optional: Set shadow path for better performance
+               let shadowPath = UIBezierPath(rect: self.bounds)
+               self.layer.shadowPath = shadowPath.cgPath
     }
     
     @objc private func didTap() {

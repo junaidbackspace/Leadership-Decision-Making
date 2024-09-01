@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6564A22B2C84509B0042983C /* _694d7a94-62d3-49c8-adfa-bc9804631895.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6564A22A2C84509B0042983C /* _694d7a94-62d3-49c8-adfa-bc9804631895.jpeg */; };
+		6564A2312C84657A0042983C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564A2302C84657A0042983C /* SettingsViewController.swift */; };
+		6564A2352C84696E0042983C /* SettingstypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564A2342C84696E0042983C /* SettingstypeViewController.swift */; };
+		6564A2392C8481520042983C /* PDFReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564A2382C8481520042983C /* PDFReaderViewController.swift */; };
+		6564A23E2C8482370042983C /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A23D2C8482370042983C /* sample.pdf */; };
 		6569E6432C8360A500CE1042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569E6422C8360A500CE1042 /* AppDelegate.swift */; };
 		6569E6452C8360A500CE1042 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569E6442C8360A500CE1042 /* SceneDelegate.swift */; };
 		6569E6472C8360A500CE1042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569E6462C8360A500CE1042 /* ViewController.swift */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6564A22A2C84509B0042983C /* _694d7a94-62d3-49c8-adfa-bc9804631895.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "_694d7a94-62d3-49c8-adfa-bc9804631895.jpeg"; sourceTree = "<group>"; };
+		6564A2302C84657A0042983C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6564A2342C84696E0042983C /* SettingstypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingstypeViewController.swift; sourceTree = "<group>"; };
+		6564A2382C8481520042983C /* PDFReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderViewController.swift; sourceTree = "<group>"; };
+		6564A23D2C8482370042983C /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 		6569E63F2C8360A500CE1042 /* Leadership & Decision Making.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leadership & Decision Making.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6569E6422C8360A500CE1042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6569E6442C8360A500CE1042 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +53,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6564A22F2C84655D0042983C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6564A2302C84657A0042983C /* SettingsViewController.swift */,
+				6564A2342C84696E0042983C /* SettingstypeViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6564A2372C8481370042983C /* PDF_Reader */ = {
+			isa = PBXGroup;
+			children = (
+				6564A2382C8481520042983C /* PDFReaderViewController.swift */,
+			);
+			path = PDF_Reader;
+			sourceTree = "<group>";
+		};
+		6564A23C2C8482250042983C /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				6564A23D2C8482370042983C /* sample.pdf */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
 		6569E6362C8360A500CE1042 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +97,16 @@
 		6569E6412C8360A500CE1042 /* Leadership & Decision Making */ = {
 			isa = PBXGroup;
 			children = (
+				6564A23C2C8482250042983C /* Books */,
+				6564A2372C8481370042983C /* PDF_Reader */,
+				6564A22F2C84655D0042983C /* Settings */,
 				6569E6662C83959C00CE1042 /* Lessons */,
 				6569E6652C83957800CE1042 /* Dashbaord */,
 				6569E6422C8360A500CE1042 /* AppDelegate.swift */,
 				6569E6442C8360A500CE1042 /* SceneDelegate.swift */,
 				6569E6482C8360A500CE1042 /* Main.storyboard */,
 				6569E64E2C8360A700CE1042 /* Assets.xcassets */,
+				6564A22A2C84509B0042983C /* _694d7a94-62d3-49c8-adfa-bc9804631895.jpeg */,
 				6569E6502C8360A700CE1042 /* LaunchScreen.storyboard */,
 				6569E6532C8360A700CE1042 /* Info.plist */,
 				6569E64B2C8360A500CE1042 /* Leadership___Decision_Making.xcdatamodeld */,
@@ -151,7 +190,9 @@
 			files = (
 				6569E6522C8360A700CE1042 /* LaunchScreen.storyboard in Resources */,
 				6569E64F2C8360A700CE1042 /* Assets.xcassets in Resources */,
+				6564A22B2C84509B0042983C /* _694d7a94-62d3-49c8-adfa-bc9804631895.jpeg in Resources */,
 				6569E64A2C8360A500CE1042 /* Main.storyboard in Resources */,
+				6564A23E2C8482370042983C /* sample.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +205,11 @@
 			files = (
 				6569E6472C8360A500CE1042 /* ViewController.swift in Sources */,
 				6569E6432C8360A500CE1042 /* AppDelegate.swift in Sources */,
+				6564A2352C84696E0042983C /* SettingstypeViewController.swift in Sources */,
+				6564A2312C84657A0042983C /* SettingsViewController.swift in Sources */,
 				6569E6632C83664800CE1042 /* LessonView.swift in Sources */,
 				6569E6682C8395DA00CE1042 /* DetailViewController.swift in Sources */,
+				6564A2392C8481520042983C /* PDFReaderViewController.swift in Sources */,
 				6569E6452C8360A500CE1042 /* SceneDelegate.swift in Sources */,
 				6569E64D2C8360A500CE1042 /* Leadership___Decision_Making.xcdatamodeld in Sources */,
 			);
@@ -317,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SNQ78848GL;
 				INFOPLIST_FILE = "Leadership & Decision Making/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SNQ78848GL;
 				INFOPLIST_FILE = "Leadership & Decision Making/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
