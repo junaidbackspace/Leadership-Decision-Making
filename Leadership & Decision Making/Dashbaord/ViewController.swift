@@ -155,19 +155,20 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         // Add tap handlers
         lesson1.onTap = { [weak self] in
-            self?.navigateToDetailViewController(with: "Tactical Thinking")
+            self?.navigateToDetailViewController(with: "Tactical Thinking",row: 0)
         }
         lesson2.onTap = { [weak self] in
-            self?.navigateToDetailViewController(with: "Leadership")
+            self?.navigateToDetailViewController(with: "Leadership",row: 1)
         }
         lesson3.onTap = { [weak self] in
-            self?.navigateToDetailViewController(with: "Decision Making")
+            self?.navigateToDetailViewController(with: "Decision Making",row: 2)
         }
     }
 
-    private func navigateToDetailViewController(with text: String) {
+    private func navigateToDetailViewController(with text: String , row : Int) {
         let detailVC = DetailViewController()
         detailVC.titlelabel = text
+        detailVC.lesson_type = row
         navigationController?.pushViewController(detailVC, animated: true)
     }
 

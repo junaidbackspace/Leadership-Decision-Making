@@ -3,6 +3,7 @@ import PDFKit
 
 class PDFReaderViewController: UIViewController {
     
+    var bookname = ""
     private let pdfView = PDFView()
     private var pdfDocument: PDFDocument? // Reference to the PDF document
     
@@ -44,7 +45,7 @@ class PDFReaderViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.white.withAlphaComponent(0.3)
+       
         
         setupNavigationBar()
         setupPDFView()
@@ -98,7 +99,7 @@ class PDFReaderViewController: UIViewController {
         // Perform PDF loading on a background thread
         DispatchQueue.global(qos: .userInitiated).async {
             // Load PDF file from the project bundle
-            guard let pdfURL = Bundle.main.url(forResource: "sample", withExtension: "pdf") else {
+            guard let pdfURL = Bundle.main.url(forResource: self.bookname, withExtension: "pdf") else {
                 print("Failed to find PDF file.")
                 return
             }

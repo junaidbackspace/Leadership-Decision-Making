@@ -108,7 +108,7 @@ class SettingstypeViewController: UIViewController {
     private let contentView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = UIColor.black.withAlphaComponent(0.07)
+        view.backgroundColor = UIColor.black.withAlphaComponent(0.05)
         return view
     }()
     

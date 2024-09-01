@@ -12,6 +12,15 @@
 		6564A2352C84696E0042983C /* SettingstypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564A2342C84696E0042983C /* SettingstypeViewController.swift */; };
 		6564A2392C8481520042983C /* PDFReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564A2382C8481520042983C /* PDFReaderViewController.swift */; };
 		6564A23E2C8482370042983C /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A23D2C8482370042983C /* sample.pdf */; };
+		6564A2432C84D4310042983C /* T_exp_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A2402C84D4300042983C /* T_exp_level.pdf */; };
+		6564A2442C84D4310042983C /* T_int_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A2412C84D4310042983C /* T_int_level.pdf */; };
+		6564A2452C84D4310042983C /* T_beg_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A2422C84D4310042983C /* T_beg_level.pdf */; };
+		6564A24C2C84D4910042983C /* D_exp_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A2492C84D4910042983C /* D_exp_level.pdf */; };
+		6564A24D2C84D4910042983C /* D_int_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A24A2C84D4910042983C /* D_int_level.pdf */; };
+		6564A24E2C84D4910042983C /* D_beg_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A24B2C84D4910042983C /* D_beg_level.pdf */; };
+		6564A2552C84D52B0042983C /* L_beg_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A2522C84D52B0042983C /* L_beg_level.pdf */; };
+		6564A2562C84D52B0042983C /* L_exp_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A2532C84D52B0042983C /* L_exp_level.pdf */; };
+		6564A2572C84D52B0042983C /* L_int_level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6564A2542C84D52B0042983C /* L_int_level.pdf */; };
 		6569E6432C8360A500CE1042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569E6422C8360A500CE1042 /* AppDelegate.swift */; };
 		6569E6452C8360A500CE1042 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569E6442C8360A500CE1042 /* SceneDelegate.swift */; };
 		6569E6472C8360A500CE1042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569E6462C8360A500CE1042 /* ViewController.swift */; };
@@ -29,6 +38,15 @@
 		6564A2342C84696E0042983C /* SettingstypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingstypeViewController.swift; sourceTree = "<group>"; };
 		6564A2382C8481520042983C /* PDFReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderViewController.swift; sourceTree = "<group>"; };
 		6564A23D2C8482370042983C /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
+		6564A2402C84D4300042983C /* T_exp_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = T_exp_level.pdf; sourceTree = "<group>"; };
+		6564A2412C84D4310042983C /* T_int_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = T_int_level.pdf; sourceTree = "<group>"; };
+		6564A2422C84D4310042983C /* T_beg_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = T_beg_level.pdf; sourceTree = "<group>"; };
+		6564A2492C84D4910042983C /* D_exp_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D_exp_level.pdf; sourceTree = "<group>"; };
+		6564A24A2C84D4910042983C /* D_int_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D_int_level.pdf; sourceTree = "<group>"; };
+		6564A24B2C84D4910042983C /* D_beg_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D_beg_level.pdf; sourceTree = "<group>"; };
+		6564A2522C84D52B0042983C /* L_beg_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = L_beg_level.pdf; sourceTree = "<group>"; };
+		6564A2532C84D52B0042983C /* L_exp_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = L_exp_level.pdf; sourceTree = "<group>"; };
+		6564A2542C84D52B0042983C /* L_int_level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = L_int_level.pdf; sourceTree = "<group>"; };
 		6569E63F2C8360A500CE1042 /* Leadership & Decision Making.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leadership & Decision Making.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6569E6422C8360A500CE1042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6569E6442C8360A500CE1042 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,9 +91,43 @@
 		6564A23C2C8482250042983C /* Books */ = {
 			isa = PBXGroup;
 			children = (
+				6564A2512C84D5090042983C /* Leadership */,
+				6564A2502C84D4A20042983C /* Decision Making */,
+				6564A2472C84D43A0042983C /* Tactical Thinking */,
 				6564A23D2C8482370042983C /* sample.pdf */,
 			);
 			path = Books;
+			sourceTree = "<group>";
+		};
+		6564A2472C84D43A0042983C /* Tactical Thinking */ = {
+			isa = PBXGroup;
+			children = (
+				6564A2422C84D4310042983C /* T_beg_level.pdf */,
+				6564A2402C84D4300042983C /* T_exp_level.pdf */,
+				6564A2412C84D4310042983C /* T_int_level.pdf */,
+			);
+			name = "Tactical Thinking";
+			sourceTree = "<group>";
+		};
+		6564A2502C84D4A20042983C /* Decision Making */ = {
+			isa = PBXGroup;
+			children = (
+				6564A24B2C84D4910042983C /* D_beg_level.pdf */,
+				6564A2492C84D4910042983C /* D_exp_level.pdf */,
+				6564A24A2C84D4910042983C /* D_int_level.pdf */,
+			);
+			name = "Decision Making";
+			sourceTree = "<group>";
+		};
+		6564A2512C84D5090042983C /* Leadership */ = {
+			isa = PBXGroup;
+			children = (
+				6564A2522C84D52B0042983C /* L_beg_level.pdf */,
+				6564A2532C84D52B0042983C /* L_exp_level.pdf */,
+				6564A2542C84D52B0042983C /* L_int_level.pdf */,
+			);
+			name = Leadership;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6569E6362C8360A500CE1042 = {
@@ -190,9 +242,18 @@
 			files = (
 				6569E6522C8360A700CE1042 /* LaunchScreen.storyboard in Resources */,
 				6569E64F2C8360A700CE1042 /* Assets.xcassets in Resources */,
+				6564A2562C84D52B0042983C /* L_exp_level.pdf in Resources */,
+				6564A24D2C84D4910042983C /* D_int_level.pdf in Resources */,
+				6564A2572C84D52B0042983C /* L_int_level.pdf in Resources */,
 				6564A22B2C84509B0042983C /* _694d7a94-62d3-49c8-adfa-bc9804631895.jpeg in Resources */,
 				6569E64A2C8360A500CE1042 /* Main.storyboard in Resources */,
+				6564A24E2C84D4910042983C /* D_beg_level.pdf in Resources */,
+				6564A2432C84D4310042983C /* T_exp_level.pdf in Resources */,
 				6564A23E2C8482370042983C /* sample.pdf in Resources */,
+				6564A2442C84D4310042983C /* T_int_level.pdf in Resources */,
+				6564A2452C84D4310042983C /* T_beg_level.pdf in Resources */,
+				6564A24C2C84D4910042983C /* D_exp_level.pdf in Resources */,
+				6564A2552C84D52B0042983C /* L_beg_level.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

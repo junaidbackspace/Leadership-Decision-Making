@@ -19,8 +19,11 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return label
     }()
     
+    var lesson_type = 0
     var images = ["beginner", "inter", "expert"]
     var labels = ["Beginner level", "Intermediate Level", "Expert Level"]
+    var books = [["T_beg_level","T_int_level","T_exp_level"],
+                 ["L_beg_level","L_int_level","L_exp_level"],["D_beg_level","D_int_level","D_exp_level"]]
     private let color: [UIColor] = [.red,.green,.purple]
     var titlelabel: String = "" {
         didSet {
@@ -138,7 +141,8 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let vc = PDFReaderViewController()
         vc.titlelabel = labels[indexPath.row]
         vc.bgcolor = color[indexPath.row]
-        navigationController?.pushViewController(vc, animated: true)
+        vc.bookname = books[lesson_type][indexPath.row]
+        navigationController?.pushViewController(vc, animated: false)
     }
 }
 
