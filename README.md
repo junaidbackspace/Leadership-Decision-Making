@@ -11,10 +11,12 @@
   </tr>
 
     <tr>
-    <td><strong>Lesson Viewer</strong><br><img src="https://github.com/user-attachments/assets/67296126-b460-4d56-a739-bb27abe7037f" alt="Lesson " width="300">
+    <td>
+    <strong>Lesson Viewer</strong><br><img src="https://github.com/user-attachments/assets/67296126-b460-4d56-a739-bb27abe7037f" alt="Lesson viewer" width="300">
     </td>
    
-    <td colspan="2"><strong>Privacy Settings</strong><br><img src="https://github.com/user-attachments/assets/6e398d8b-193e-40cd-b7f7-f324c27f6242" alt="Privacy Settings" width="300"></td>
+    <td>
+    <strong>Privacy Settings</strong><br><img src="https://github.com/user-attachments/assets/6e398d8b-193e-40cd-b7f7-f324c27f6242" alt="Privacy Settings" width="300"></td>
   </tr>
   
 </table>
